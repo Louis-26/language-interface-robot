@@ -1,5 +1,17 @@
+# set up environment
+```bash
+conda create -n language_interface_robot python=3.10.16 -y
+```
+
 # Data
 download from https://drive.google.com/uc?id=153XoDitOarYKKlsMuBxYeyDYNrXBuAoN&export=download
+
+```bash
+conda activate language_interface_robot
+pip install gdown
+chmod +x load_data.sh
+./load_data.sh
+```
 
 Implemented natural language interface (NLI) and PyBullet environment for instructive motion planning.
 
